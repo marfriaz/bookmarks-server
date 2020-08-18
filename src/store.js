@@ -1,24 +1,26 @@
+const uuid = require("uuid/v4");
+
 const bookmarks = [
   {
-    id: 1,
-    title: "Harry Potter",
-    url: "https://www.harrypotter.com",
-    description: "Sorcer's stone",
-    rating: 10,
+    id: uuid(),
+    title: "Thinkful",
+    url: "https://www.thinkful.com",
+    description: "Think outside the classroom",
+    rating: 5,
   },
   {
-    id: 2,
-    title: "The Hulk",
-    url: "https://www.thehulk.com",
-    description: "The Hulk attacks",
-    rating: 8,
+    id: uuid(),
+    title: "Google",
+    url: "https://www.google.com",
+    description: "Where we find everything else",
+    rating: 4,
   },
   {
-    id: 3,
-    title: "Superman",
-    url: "https://www.superman.com",
-    description: "Superman saves the world",
-    rating: 1,
+    id: uuid(),
+    title: "MDN",
+    url: "https://developer.mozilla.org",
+    description: "The only place to find web documentation",
+    rating: 5,
   },
 ];
 
