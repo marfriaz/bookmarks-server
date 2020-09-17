@@ -88,3 +88,5 @@
 {"message":"Invalid update without required fields","level":"error"}
 {"message":"Invalid rating 'invalid' supplied","level":"error"}
 {"message":"Invalid url 'htp://invalid-url' supplied","level":"error"}
+{"message":"Unauthorized request to path: /","level":"error"}
+{"message":"Unauthorized request to path: /favicon.ico","level":"error"}
